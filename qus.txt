@@ -1,0 +1,11 @@
+Assignment in map , filter and reduce 
+    -> Conducting an Interview 
+    -> we have a users data in an object 
+    let users=[
+        {"user":"name"},
+        {"user":"name"},
+        {"user":"name"},
+    ]
+    -> map : Conducting a test for multiple candidates 
+    -> filter : selecting candidates who passed the test 60 
+    -> reduce : creating a team from the selected candidates
