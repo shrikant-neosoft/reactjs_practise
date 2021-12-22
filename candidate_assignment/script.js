@@ -17,7 +17,7 @@ let new_team = document.querySelector("#new_team");
 
 users.forEach((user)=>{
     let btn = document.createElement("button");
-    btn.className = "btn btn-light mx-1";
+    btn.className = "btn btn-light m-1";
     btn.innerHTML = user["user"];
     candidate.append(btn);
 })
