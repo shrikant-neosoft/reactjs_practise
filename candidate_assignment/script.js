@@ -40,7 +40,7 @@ var adduser = (inputobj)=>{
 
     // creat button obj
     let btn = document.createElement("button");
-    btn.className = "btn btn-light mx-1";
+    btn.className = "btn btn-light m-1";
     btn.innerHTML = newuser;
 
     // append inside the Candidate Interview container
@@ -65,7 +65,7 @@ var startInterview = ()=>{
 
         // creat button obj
         let btn = document.createElement("button");
-        btn.className = "btn btn-light mx-1";
+        btn.className = "btn btn-light m-1";
         btn.innerHTML = `${val.user} - <span class='badge bg-secondary'>${val.mark}</span>`;
 
         candidate_result.append(btn);
@@ -80,7 +80,7 @@ var startInterview = ()=>{
 
          // creat button obj
          let btn = document.createElement("button");
-         btn.className = "btn btn-light mx-1";
+         btn.className = "btn btn-light m-1";
          btn.innerHTML = `${val.user} - <span class='badge bg-secondary'> ${val.mark}</span>`;
  
          candidate_selected.append(btn);
@@ -95,7 +95,7 @@ var startInterview = ()=>{
 
         // creat button obj
         let btn = document.createElement("button");
-        btn.className = "btn btn-success mx-1";
+        btn.className = "btn btn-success m-1";
         btn.innerHTML = val.user;
 
         new_team.append(btn);
